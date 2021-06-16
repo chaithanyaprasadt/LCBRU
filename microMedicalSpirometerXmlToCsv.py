@@ -18,7 +18,7 @@ def transformXmlToCsv(inputfile):
   dom = ET.parse(inputfile)
   transform = ET.XSLT(xslt)
   print(str(transform(dom)))
-
+  #print(ET.tostring(transform(dom), pretty_print=True))
 if __name__ == "__main__":
    main()
 
