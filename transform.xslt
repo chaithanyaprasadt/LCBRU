@@ -901,7 +901,7 @@
 		<xsl:apply-templates select="dyspnoea_score" mode="numeric" />
 		<xsl:text>,</xsl:text>
 
-		<xsl:apply-templates select="exam" />
+		<xsl:apply-templates select="exam[position() = 1]" />
 
 		<xsl:text>&#xa;</xsl:text>
 	</xsl:template>
