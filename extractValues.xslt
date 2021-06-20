@@ -19,19 +19,15 @@
 
 	<xsl:template match="result">
 		<xsl:variable name="ResultNode">
-			<xsl:text>result[title='</xsl:text>
+			<xsl:text>'</xsl:text>
 			<xsl:value-of select="title" />
-			<xsl:text>']</xsl:text>
+			<xsl:text>'</xsl:text>
 		</xsl:variable>
 
-      <x_choose>
-        <x_when test="{$ResultNode}">
-	   		<x_apply-templates select="{$ResultNode}" />
-        </x_when>
-        <x_otherwise>
-	   		<x_call-template name="EmptyTestResult" />
-        </x_otherwise>
-      </x_choose>
+		<x_call-template name="Result">
+			<x_with-param name="test" select="$test"/>
+			<x_with-param name="title" select="{$ResultNode}"/>
+		</x_call-template>
 	</xsl:template>
 
 </xsl:stylesheet>
