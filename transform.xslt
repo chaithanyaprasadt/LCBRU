@@ -84,6 +84,10 @@
 
     <xsl:call-template name="header_test">
       <xsl:with-param name="exam_number" select = "$exam_number" />
+      <xsl:with-param name="test_number" select = "'C'" />
+    </xsl:call-template>
+    <xsl:call-template name="header_test">
+      <xsl:with-param name="exam_number" select = "$exam_number" />
       <xsl:with-param name="test_number" select = "1" />
     </xsl:call-template>
     <xsl:call-template name="header_test">
@@ -105,14 +109,6 @@
     <xsl:call-template name="header_test">
       <xsl:with-param name="exam_number" select = "$exam_number" />
       <xsl:with-param name="test_number" select = "6" />
-    </xsl:call-template>
-    <xsl:call-template name="header_test">
-      <xsl:with-param name="exam_number" select = "$exam_number" />
-      <xsl:with-param name="test_number" select = "7" />
-    </xsl:call-template>
-    <xsl:call-template name="header_test">
-      <xsl:with-param name="exam_number" select = "$exam_number" />
-      <xsl:with-param name="test_number" select = "8" />
     </xsl:call-template>
   </xsl:template>
 
@@ -839,29 +835,26 @@
 		<xsl:apply-templates select="$exam/interpretation/value" mode="string" />
 		<xsl:text>,</xsl:text>
 
-		<xsl:call-template name="Test">
-			<xsl:with-param name="test" select="$exam/test[position() = 1]" />
-		</xsl:call-template>
-		<xsl:call-template name="Test">
-			<xsl:with-param name="test" select="$exam/test[position() = 2]" />
-		</xsl:call-template>
-		<xsl:call-template name="Test">
-			<xsl:with-param name="test" select="$exam/test[position() = 3]" />
-		</xsl:call-template>
-		<xsl:call-template name="Test">
-			<xsl:with-param name="test" select="$exam/test[position() = 4]" />
-		</xsl:call-template>
-		<xsl:call-template name="Test">
-			<xsl:with-param name="test" select="$exam/test[position() = 5]" />
-		</xsl:call-template>
     <xsl:call-template name="Test">
-      <xsl:with-param name="test" select="$exam/test[position() = 6]" />
+      <xsl:with-param name="test" select="$exam/test[test_type/composite_test='true']" />
     </xsl:call-template>
+		<xsl:call-template name="Test">
+			<xsl:with-param name="test" select="$exam/test[result[title='Quality'][value='7']][position() = 1]" />
+		</xsl:call-template>
+		<xsl:call-template name="Test">
+			<xsl:with-param name="test" select="$exam/test[result[title='Quality'][value='7']][position() = 2]" />
+		</xsl:call-template>
+		<xsl:call-template name="Test">
+			<xsl:with-param name="test" select="$exam/test[result[title='Quality'][value='7']][position() = 3]" />
+		</xsl:call-template>
+		<xsl:call-template name="Test">
+			<xsl:with-param name="test" select="$exam/test[result[title='Quality'][value='7']][position() = 4]" />
+		</xsl:call-template>
+		<xsl:call-template name="Test">
+			<xsl:with-param name="test" select="$exam/test[result[title='Quality'][value='7']][position() = 5]" />
+		</xsl:call-template>
     <xsl:call-template name="Test">
-      <xsl:with-param name="test" select="$exam/test[position() = 7]" />
-    </xsl:call-template>
-    <xsl:call-template name="Test">
-      <xsl:with-param name="test" select="$exam/test[position() = 8]" />
+      <xsl:with-param name="test" select="$exam/test[result[title='Quality'][value='7']][position() = 6]" />
     </xsl:call-template>
 	</xsl:template>
 
@@ -1008,9 +1001,9 @@
 		<xsl:param name = "result_type" />
 		<xsl:param name = "field_name" />
 
-    <xsl:text>"exam </xsl:text>
+    <xsl:text>"E</xsl:text>
     <xsl:value-of select="$exam_number"/>
-		<xsl:text> test </xsl:text>
+		<xsl:text>T</xsl:text>
 		<xsl:value-of select="$test_number"/>
 		<xsl:text> </xsl:text>
 		<xsl:value-of select="$result_type"/>

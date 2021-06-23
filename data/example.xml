@@ -1,2 +1,6419 @@
-<?xml version="1.0"?>
-<foo>Text</foo>
+<micro_medical schema_version="1.0">
+  <application>
+    <hardware_key></hardware_key>
+    <version>1.8.3.0</version>
+    <name>Spirometry PC Software</name>
+    <serial_number>117218230</serial_number>
+    <database_id>V:\GRAPHIC2\Spirometry\GRAPHIC 2 - Copy.RDB</database_id>
+    <database_version>PATIENT_DETAILS: 204 
+SPIROMETRY: 102 
+MVV: 100 
+</database_version>
+  </application>
+  <settings>
+    <Setting Name="FormatPrintoutBlackAndWhite" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="DefaultDevice" Type="System.Int32">
+      <Value>9</Value>
+    </Setting>
+    <Setting Name="ComPort" Type="System.String">
+      <Value>USB</Value>
+    </Setting>
+    <Setting Name="NumPostTests" Type="System.Int32">
+      <Value>2</Value>
+    </Setting>
+    <Setting Name="UseWorkflow" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="Culture" Type="System.String">
+      <Value>en-GB</Value>
+    </Setting>
+    <Setting Name="Language" Type="System.String">
+      <Value>en</Value>
+    </Setting>
+    <Setting Name="DateSeparator" Type="System.String">
+      <Value>/</Value>
+    </Setting>
+    <Setting Name="DateFormat" Type="System.String">
+      <Value>dd/MM/yyyy</Value>
+    </Setting>
+    <Setting Name="WeightUnits" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="HeightUnits" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="PrintTitle1" Type="System.String">
+      <Value></Value>
+    </Setting>
+    <Setting Name="PrintTitle2" Type="System.String">
+      <Value></Value>
+    </Setting>
+    <Setting Name="TopMarginFirst" Type="System.Single">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="TopMarginSubqequent" Type="System.Single">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="LeftMargin" Type="System.Single">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="RightMargin" Type="System.Single">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="BottomMargin" Type="System.Single">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="ExamListSplitterDistance" Type="System.Int32">
+      <Value>300</Value>
+    </Setting>
+    <Setting Name="ExamListHeight" Type="System.Int32">
+      <Value>200</Value>
+    </Setting>
+    <Setting Name="AutoPdfExport" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="AutoPdfExportFolder" Type="System.String">
+      <Value></Value>
+    </Setting>
+    <Setting Name="PerformAutoBackup" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PresetConfiguration" Type="System.String">
+      <Value>Preset_NICE</Value>
+    </Setting>
+    <Setting Name="BestCriteria" Type="System.Int32">
+      <Value>2</Value>
+    </Setting>
+    <Setting Name="RelaxedBestCriteria" Type="System.Int32">
+      <Value>200</Value>
+    </Setting>
+    <Setting Name="PefUnits" Type="System.Int32">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="FlowType" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="PredictedDisplayFV" Type="System.Int32">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="PredictedDisplayVT" Type="System.Int32">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="PredictedSet" Type="System.Int32">
+      <Value>7</Value>
+    </Setting>
+    <Setting Name="CalibrationCheckReminder" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="Interpretation" Type="System.String">
+      <Value>NICE</Value>
+    </Setting>
+    <Setting Name="ReproducabilityCriteria" Type="System.String">
+      <Value>ReproducabilityCriteria_BTS</Value>
+    </Setting>
+    <Setting Name="ShowGrids" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="AutoExclude" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="ShowLungAge" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="ShowShortBlow" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="ShowFEV1FVCPercentPredicted" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="TrendMode" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="TrendFvc" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="TrendPef" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="TrendFev1" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="TrendVc" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="TrendFef2575" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="TrendFEV1_FVC" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="RelaxedLiveMode" Type="System.Int32">
+      <Value>1</Value>
+    </Setting>
+    <Setting />
+    <Setting Name="SpiroIndices" Type="System.Boolean[]">
+      <Value>True,False,False,False,False,True,False,False,True,True,False,False,False,False,False,False,False,True,True,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False,False</Value>
+    </Setting>
+    <Setting Name="AcceptableInhaleExhaleRatio" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="MaxPostTests" Type="System.Int32">
+      <Value>2</Value>
+    </Setting>
+    <Setting Name="IncentiveFirstTestPercentofPredictedFvc" Type="System.Int32">
+      <Value>100</Value>
+    </Setting>
+    <Setting Name="IncentiveFirstTestPercentofBestFvc" Type="System.Int32">
+      <Value>100</Value>
+    </Setting>
+    <Setting Name="IcCalculationMethod" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="ForcedIndividualBestQuality" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="SpirometryColors" Type="MicroMedical.SpiroModule.SpirometryColors">
+      <Value>Green,Red,Purple,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold</Value>
+    </Setting>
+    <Setting Name="PrintOption" Type="System.Int32">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="PrintTitle" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintPatientDetails" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintPatientHistory" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintMedication" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintForcedSummaryAll" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintForcedSummaryBest" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintForcedSummaryNone" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintIndices" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintInterpretation" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintBestForcedGraphs" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintAllForcedGraphs" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintExamNotes" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintSignatureLine" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintAllExamsSummary" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintTrendGraph" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintBestRelaxedGraphs" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintAllRelaxedGraphs" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintRelaxedSummaryAll" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintRelaxedSummaryBest" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintRelaxedSummaryNone" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintLargeAtsErsGraphs" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintExcludedTests" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="MVV" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PresetConfiguration" Type="System.String">
+      <Value>Preset_ATS_ERS</Value>
+    </Setting>
+    <Setting Name="BestCriteria" Type="System.Int32">
+      <Value>3</Value>
+    </Setting>
+    <Setting Name="PredictedDisplayMVV" Type="System.Int32">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="PredictedDisplayVT" Type="System.Int32">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="PredictedSet" Type="System.Int32">
+      <Value>4</Value>
+    </Setting>
+    <Setting Name="CalibrationCheckReminder" Type="System.Int32">
+      <Value>0</Value>
+    </Setting>
+    <Setting Name="Interpretation" Type="System.String">
+      <Value>None</Value>
+    </Setting>
+    <Setting Name="ReproducabilityCriteria" Type="System.String">
+      <Value>ReproducabilityCriteria_ATS</Value>
+    </Setting>
+    <Setting Name="BreathRatePerMinute" Type="System.Int32">
+      <Value>65</Value>
+    </Setting>
+    <Setting Name="MaxVariation" Type="System.Int32">
+      <Value>20</Value>
+    </Setting>
+    <Setting Name="ShowGrids" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="AutoExclude" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting />
+    <Setting Name="MvvIndices" Type="System.Boolean[]">
+      <Value>True,True,True,True,True,True,True,True,True,True,True</Value>
+    </Setting>
+    <Setting Name="MaxPostTests" Type="System.Int32">
+      <Value>2</Value>
+    </Setting>
+    <Setting Name="MvvColors" Type="MicroMedical.MvvModule.MvvColors">
+      <Value>Green,Red,Purple,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold,Gold</Value>
+    </Setting>
+    <Setting Name="PrintOption" Type="System.Int32">
+      <Value>1</Value>
+    </Setting>
+    <Setting Name="PrintTitle" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintPatientDetails" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintPatientHistory" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintMedication" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintForcedSummaryAll" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintForcedSummaryBest" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintForcedSummaryNone" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintIndices" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintInterpretation" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintBestForcedGraphs" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintAllForcedGraphs" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintExamNotes" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintSignatureLine" Type="System.Boolean">
+      <Value>true</Value>
+    </Setting>
+    <Setting Name="PrintAllExamsSummary" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintLargeAtsErsGraphs" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+    <Setting Name="PrintExcludedTests" Type="System.Boolean">
+      <Value>false</Value>
+    </Setting>
+  </settings>
+  <patient>
+    <id>0021</id>
+    <alias_id></alias_id>
+    <name>
+      <first></first>
+      <last></last>
+    </name>
+    <gender>male</gender>
+    <dob>
+      <year>1821</year>
+      <month>3</month>
+      <day>4</day>
+    </dob>
+    <age>73</age>
+    <origin>caucasian</origin>
+    <height>182</height>
+    <weight>67</weight>
+    <bmi>21</bmi>
+    <smoker>0</smoker>
+    <dyspnoea_score>0</dyspnoea_score>
+    <referred_by></referred_by>
+    <occupation></occupation>
+    <history></history>
+    <medication></medication>
+    <frc>0</frc>
+    <factor>100</factor>
+    <factor>100</factor>
+    <exam includes_composite_forced="true">
+      <type>spirometry</type>
+      <new>false</new>
+      <exam_id>0021-20140506161150</exam_id>
+      <date_time>
+        <year>2014</year>
+        <month>5</month>
+        <day>6</day>
+        <hour>16</hour>
+        <minute>11</minute>
+        <second>50</second>
+      </date_time>
+      <height>182</height>
+      <weight>67</weight>
+      <dyspnoea_score>0</dyspnoea_score>
+      <smoker>-1</smoker>
+      <referred_by />
+      <occupation />
+      <medication></medication>
+      <notes></notes>
+      <print_status>0</print_status>
+      <predicted_title>Europe (ECCS, Cogswell, Solymar, Zapletal)</predicted_title>
+      <reproducibility>
+        <test_title>forced spirometry</test_title>
+        <stage>baseline</stage>
+        <reproducibility_title>BTS</reproducibility_title>
+        <reproducibility_value>true</reproducibility_value>
+      </reproducibility>
+      <interpretation>
+        <stage>baseline</stage>
+        <title>NICE (2010)</title>
+        <value>Normal Spirometry</value>
+      </interpretation>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>1</index>
+        <date_time>
+          <year>2014</year>
+          <month>5</month>
+          <day>6</day>
+          <hour>16</hour>
+          <minute>11</minute>
+          <second>48</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>182</height>
+        <weight>67</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>2.39</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>2.73</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>2.96</value>
+          <predicted_value>3.04</predicted_value>
+          <predicted_value_min>2.20</predicted_value_min>
+          <predicted_value_max>3.88</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>-0.1</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>3.47</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>3.50</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>3.50</value>
+          <predicted_value>3.87</predicted_value>
+          <predicted_value_min>2.87</predicted_value_min>
+          <predicted_value_max>4.87</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>-0.6</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>8.16</value>
+          <predicted_value>7.94</predicted_value>
+          <predicted_value_min>5.95</predicted_value_min>
+          <predicted_value_max>9.93</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.2</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>68.29</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>68.88</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>78.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>78.67</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>78.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>84.57</value>
+          <predicted_value>75.87</predicted_value>
+          <predicted_value_min>64.07</predicted_value_min>
+          <predicted_value_max>87.67</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>1.2</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>84.57</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>99.14</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>7.56</value>
+          <predicted_value>7.04</predicted_value>
+          <predicted_value_min>4.23</predicted_value_min>
+          <predicted_value_max>9.85</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>4.11</value>
+          <predicted_value>4.18</predicted_value>
+          <predicted_value_min>2.01</predicted_value_min>
+          <predicted_value_max>6.35</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.1</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>1.27</value>
+          <predicted_value>1.49</predicted_value>
+          <predicted_value_min>0.21</predicted_value_min>
+          <predicted_value_max>2.77</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.3</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>3.19</value>
+          <predicted_value>3.31</predicted_value>
+          <predicted_value_min>1.60</predicted_value_min>
+          <predicted_value_max>5.02</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.1</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>91.14</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>91.93</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>117.43</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>111.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>3.29</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.54</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>3.48</predicted_value>
+          <predicted_value_min>2.49</predicted_value_min>
+          <predicted_value_max>4.47</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>2.40</predicted_value>
+          <predicted_value_min>1.73</predicted_value_min>
+          <predicted_value_max>3.07</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>6.58</predicted_value>
+          <predicted_value_min>5.43</predicted_value_min>
+          <predicted_value_max>7.73</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>57.03</predicted_value>
+          <predicted_value_min>45.94</predicted_value_min>
+          <predicted_value_max>68.12</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>38.53</predicted_value>
+          <predicted_value_min>29.55</predicted_value_min>
+          <predicted_value_max>47.51</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.07</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>65</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value>-4</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>35</num_points>
+          <points>0.00,0.00
+0.10,4.60
+0.20,6.70
+0.30,7.80
+0.40,8.00
+0.50,8.10
+0.60,8.10
+0.70,8.00
+0.80,7.80
+0.90,7.60
+1.00,7.40
+1.10,7.10
+1.20,6.80
+1.40,6.60
+1.50,6.20
+1.60,5.30
+1.70,4.60
+1.80,4.10
+1.90,3.70
+2.00,3.30
+2.10,2.90
+2.20,2.40
+2.30,2.00
+2.40,1.80
+2.50,1.50
+2.60,1.30
+2.70,1.20
+2.80,0.90
+2.90,0.70
+3.00,0.70
+3.20,0.60
+3.30,0.40
+3.40,0.30
+3.50,0.10
+3.50,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>17</num_points>
+          <points>0.00,0.00
+0.10,0.50
+0.20,1.20
+0.30,1.80
+0.40,2.10
+0.50,2.30
+0.60,2.50
+0.70,2.60
+0.80,2.70
+0.90,2.80
+1.00,2.90
+1.10,3.00
+1.20,3.10
+1.40,3.20
+1.70,3.30
+2.10,3.40
+3.30,3.40
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>true</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>2</index>
+        <date_time>
+          <year>2014</year>
+          <month>5</month>
+          <day>6</day>
+          <hour>16</hour>
+          <minute>11</minute>
+          <second>48</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>182</height>
+        <weight>67</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>2.50</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>2.84</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>3.08</value>
+          <predicted_value>3.04</predicted_value>
+          <predicted_value_min>2.20</predicted_value_min>
+          <predicted_value_max>3.88</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.1</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>3.60</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>3.63</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>3.63</value>
+          <predicted_value>3.87</predicted_value>
+          <predicted_value_min>2.87</predicted_value_min>
+          <predicted_value_max>4.87</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>-0.4</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>7.64</value>
+          <predicted_value>7.94</predicted_value>
+          <predicted_value_min>5.95</predicted_value_min>
+          <predicted_value_max>9.93</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.2</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>68.87</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>69.44</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>78.24</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>78.89</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>78.24</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>84.85</value>
+          <predicted_value>75.87</predicted_value>
+          <predicted_value_min>64.07</predicted_value_min>
+          <predicted_value_max>87.67</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>1.3</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>84.85</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>99.17</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>7.50</value>
+          <predicted_value>7.04</predicted_value>
+          <predicted_value_min>4.23</predicted_value_min>
+          <predicted_value_max>9.85</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>4.84</value>
+          <predicted_value>4.18</predicted_value>
+          <predicted_value_min>2.01</predicted_value_min>
+          <predicted_value_max>6.35</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.5</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>1.34</value>
+          <predicted_value>1.49</predicted_value>
+          <predicted_value_min>0.21</predicted_value_min>
+          <predicted_value_max>2.77</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.2</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>3.43</value>
+          <predicted_value>3.31</predicted_value>
+          <predicted_value_min>1.60</predicted_value_min>
+          <predicted_value_max>5.02</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.1</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>94.49</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>95.28</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>133.33</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>115.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>3.08</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.52</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>3.48</predicted_value>
+          <predicted_value_min>2.49</predicted_value_min>
+          <predicted_value_max>4.47</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>2.40</predicted_value>
+          <predicted_value_min>1.73</predicted_value_min>
+          <predicted_value_max>3.07</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>6.58</predicted_value>
+          <predicted_value_min>5.43</predicted_value_min>
+          <predicted_value_max>7.73</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>57.03</predicted_value>
+          <predicted_value_min>45.94</predicted_value_min>
+          <predicted_value_max>68.12</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>38.53</predicted_value>
+          <predicted_value_min>29.55</predicted_value_min>
+          <predicted_value_max>47.51</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.10</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>61</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value></value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>35</num_points>
+          <points>0.00,0.00
+0.10,3.80
+0.20,5.50
+0.30,6.50
+0.40,7.10
+0.50,7.60
+0.60,7.60
+0.70,7.50
+0.90,7.50
+1.00,7.30
+1.10,7.10
+1.30,6.60
+1.40,6.30
+1.50,6.10
+1.60,5.70
+1.70,5.40
+1.80,5.20
+1.90,4.40
+2.00,3.70
+2.10,3.30
+2.20,2.90
+2.30,2.60
+2.40,2.30
+2.50,2.00
+2.60,1.60
+2.70,1.40
+2.80,1.20
+2.90,1.00
+3.00,0.80
+3.10,0.60
+3.30,0.60
+3.40,0.40
+3.50,0.30
+3.60,0.20
+3.60,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>18</num_points>
+          <points>0.00,0.00
+0.10,0.20
+0.20,1.00
+0.30,1.60
+0.40,2.00
+0.50,2.30
+0.60,2.50
+0.70,2.70
+0.80,2.80
+0.90,2.90
+1.00,3.00
+1.10,3.10
+1.30,3.20
+1.50,3.30
+1.80,3.40
+2.10,3.50
+2.90,3.60
+3.10,3.60
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>3</index>
+        <date_time>
+          <year>2014</year>
+          <month>5</month>
+          <day>6</day>
+          <hour>16</hour>
+          <minute>11</minute>
+          <second>48</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>182</height>
+        <weight>67</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>2.42</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>2.78</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>3.03</value>
+          <predicted_value>3.04</predicted_value>
+          <predicted_value_min>2.20</predicted_value_min>
+          <predicted_value_max>3.88</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.0</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>3.55</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>3.58</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>3.61</value>
+          <predicted_value>3.87</predicted_value>
+          <predicted_value_min>2.87</predicted_value_min>
+          <predicted_value_max>4.87</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>-0.4</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>7.63</value>
+          <predicted_value>7.94</predicted_value>
+          <predicted_value_min>5.95</predicted_value_min>
+          <predicted_value_max>9.93</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.3</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>67.04</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>68.17</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>77.01</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>78.31</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>77.65</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>83.93</value>
+          <predicted_value>75.87</predicted_value>
+          <predicted_value_min>64.07</predicted_value_min>
+          <predicted_value_max>87.67</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>1.1</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>84.64</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>98.34</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>7.42</value>
+          <predicted_value>7.04</predicted_value>
+          <predicted_value_min>4.23</predicted_value_min>
+          <predicted_value_max>9.85</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.2</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>4.11</value>
+          <predicted_value>4.18</predicted_value>
+          <predicted_value_min>2.01</predicted_value_min>
+          <predicted_value_max>6.35</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.1</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>1.28</value>
+          <predicted_value>1.49</predicted_value>
+          <predicted_value_min>0.21</predicted_value_min>
+          <predicted_value_max>2.77</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.3</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>3.15</value>
+          <predicted_value>3.31</predicted_value>
+          <predicted_value_min>1.60</predicted_value_min>
+          <predicted_value_max>5.02</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.2</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>87.26</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>88.73</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>113.85</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>114.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>3.32</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.56</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>3.48</predicted_value>
+          <predicted_value_min>2.49</predicted_value_min>
+          <predicted_value_max>4.47</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>2.40</predicted_value>
+          <predicted_value_min>1.73</predicted_value_min>
+          <predicted_value_max>3.07</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>6.58</predicted_value>
+          <predicted_value_min>5.43</predicted_value_min>
+          <predicted_value_max>7.73</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>57.03</predicted_value>
+          <predicted_value_min>45.94</predicted_value_min>
+          <predicted_value_max>68.12</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>38.53</predicted_value>
+          <predicted_value_min>29.55</predicted_value_min>
+          <predicted_value_max>47.51</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.09</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>63</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value>-1</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>36</num_points>
+          <points>0.00,0.00
+0.10,4.30
+0.20,6.10
+0.30,6.80
+0.40,7.30
+0.50,7.40
+0.60,7.60
+0.70,7.60
+0.80,7.50
+0.90,7.30
+1.00,7.10
+1.10,6.80
+1.20,6.70
+1.40,6.30
+1.50,6.00
+1.60,5.60
+1.70,4.90
+1.80,4.30
+1.90,3.90
+2.00,3.30
+2.10,2.90
+2.20,2.50
+2.30,2.20
+2.40,2.00
+2.50,1.70
+2.60,1.50
+2.70,1.30
+2.80,1.20
+2.90,0.90
+3.00,0.70
+3.10,0.50
+3.30,0.40
+3.40,0.30
+3.50,0.20
+3.60,0.10
+3.60,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>17</num_points>
+          <points>0.00,0.00
+0.10,0.40
+0.20,1.20
+0.30,1.70
+0.40,2.10
+0.50,2.30
+0.60,2.50
+0.70,2.60
+0.80,2.80
+0.90,2.90
+1.00,3.00
+1.10,3.10
+1.40,3.20
+1.70,3.30
+2.00,3.40
+2.50,3.50
+3.30,3.50
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <composite_test>true</composite_test>
+        </test_type>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>4.02</predicted_value>
+          <predicted_value_min>3.10</predicted_value_min>
+          <predicted_value_max>4.94</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>2.50</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>2.84</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>3.08</value>
+          <predicted_value>3.04</predicted_value>
+          <predicted_value_min>2.20</predicted_value_min>
+          <predicted_value_max>3.88</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.1</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>3.60</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>3.63</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>3.63</value>
+          <predicted_value>3.87</predicted_value>
+          <predicted_value_min>2.87</predicted_value_min>
+          <predicted_value_max>4.87</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>-0.4</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>8.16</value>
+          <predicted_value>7.94</predicted_value>
+          <predicted_value_min>5.95</predicted_value_min>
+          <predicted_value_max>9.93</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.2</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>68.87</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>69.44</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>78.24</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>78.89</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>78.24</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>84.85</value>
+          <predicted_value>75.87</predicted_value>
+          <predicted_value_min>64.07</predicted_value_min>
+          <predicted_value_max>87.67</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>1.3</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>84.85</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>99.17</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>7.50</value>
+          <predicted_value>7.04</predicted_value>
+          <predicted_value_min>4.23</predicted_value_min>
+          <predicted_value_max>9.85</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>4.84</value>
+          <predicted_value>4.18</predicted_value>
+          <predicted_value_min>2.01</predicted_value_min>
+          <predicted_value_max>6.35</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.5</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>1.34</value>
+          <predicted_value>1.49</predicted_value>
+          <predicted_value_min>0.21</predicted_value_min>
+          <predicted_value_max>2.77</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.2</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>3.43</value>
+          <predicted_value>3.31</predicted_value>
+          <predicted_value_min>1.60</predicted_value_min>
+          <predicted_value_max>5.02</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.1</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>94.49</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>95.28</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>133.33</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>115.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>3.08</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.52</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>3.48</predicted_value>
+          <predicted_value_min>2.49</predicted_value_min>
+          <predicted_value_max>4.47</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>2.40</predicted_value>
+          <predicted_value_min>1.73</predicted_value_min>
+          <predicted_value_max>3.07</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>6.58</predicted_value>
+          <predicted_value_min>5.43</predicted_value_min>
+          <predicted_value_max>7.73</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>57.03</predicted_value>
+          <predicted_value_min>45.94</predicted_value_min>
+          <predicted_value_max>68.12</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>38.53</predicted_value>
+          <predicted_value_min>29.55</predicted_value_min>
+          <predicted_value_max>47.51</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.10</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>0</value>
+          <unit_symbol>-</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>61</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>91</num_points>
+          <points>0.00,0.00
+0.04,1.80
+0.08,3.60
+0.12,4.92
+0.16,5.76
+0.20,6.60
+0.24,7.08
+0.28,7.56
+0.32,7.84
+0.36,7.92
+0.40,8.00
+0.44,8.04
+0.48,8.08
+0.52,8.10
+0.56,8.10
+0.60,8.10
+0.64,8.05
+0.68,8.01
+0.72,7.94
+0.76,7.87
+0.80,7.80
+0.84,7.66
+0.88,7.53
+0.92,7.47
+0.96,7.43
+1.00,7.40
+1.04,7.24
+1.08,7.08
+1.12,6.96
+1.16,6.88
+1.20,6.80
+1.24,6.73
+1.28,6.67
+1.32,6.61
+1.36,6.54
+1.40,6.46
+1.44,6.31
+1.48,6.17
+1.52,5.94
+1.56,5.76
+1.60,5.60
+1.64,5.52
+1.68,5.44
+1.72,5.33
+1.76,5.20
+1.80,5.03
+1.84,4.75
+1.88,4.47
+1.92,4.20
+1.96,3.95
+2.00,3.70
+2.04,3.47
+2.08,3.25
+2.12,3.11
+2.16,3.00
+2.20,2.90
+2.24,2.72
+2.28,2.54
+2.32,2.41
+2.36,2.30
+2.40,2.20
+2.44,2.12
+2.48,2.04
+2.52,1.91
+2.56,1.73
+2.60,1.57
+2.64,1.46
+2.68,1.35
+2.72,1.27
+2.76,1.23
+2.80,1.18
+2.84,1.10
+2.88,1.03
+2.92,0.96
+2.96,0.88
+3.00,0.80
+3.04,0.71
+3.08,0.62
+3.12,0.60
+3.16,0.60
+3.20,0.60
+3.24,0.60
+3.28,0.60
+3.32,0.54
+3.36,0.47
+3.40,0.40
+3.44,0.36
+3.48,0.32
+3.52,0.27
+3.56,0.23
+3.59,0.00
+</points>
+          <horz_axis>
+            <axis_label />
+            <unit_symbol />
+          </horz_axis>
+          <vert_axis>
+            <axis_label />
+            <unit_symbol />
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>18</num_points>
+          <points>0.00,0.00
+0.10,0.20
+0.20,1.00
+0.30,1.60
+0.40,2.00
+0.50,2.30
+0.60,2.50
+0.70,2.70
+0.80,2.80
+0.90,2.90
+1.00,3.00
+1.10,3.10
+1.30,3.20
+1.50,3.30
+1.80,3.40
+2.10,3.50
+2.90,3.60
+3.10,3.60
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+    </exam>
+  </patient>
+  <patient>
+    <id>0040</id>
+    <alias_id></alias_id>
+    <name>
+      <first></first>
+      <last></last>
+    </name>
+    <gender>female</gender>
+    <dob>
+      <year>1865</year>
+      <month>2</month>
+      <day>14</day>
+    </dob>
+    <age>63</age>
+    <origin>caucasian</origin>
+    <height>153</height>
+    <weight>78</weight>
+    <bmi>33.3</bmi>
+    <smoker>0</smoker>
+    <dyspnoea_score>0</dyspnoea_score>
+    <referred_by></referred_by>
+    <occupation></occupation>
+    <history></history>
+    <medication></medication>
+    <frc>0</frc>
+    <factor>100</factor>
+    <factor>100</factor>
+    <exam includes_composite_forced="true">
+      <type>spirometry</type>
+      <new>false</new>
+      <exam_id>0040-20140319134228</exam_id>
+      <date_time>
+        <year>2014</year>
+        <month>3</month>
+        <day>19</day>
+        <hour>13</hour>
+        <minute>42</minute>
+        <second>28</second>
+      </date_time>
+      <height>153</height>
+      <weight>78</weight>
+      <dyspnoea_score>0</dyspnoea_score>
+      <smoker>-1</smoker>
+      <referred_by />
+      <occupation />
+      <medication></medication>
+      <notes></notes>
+      <print_status>0</print_status>
+      <predicted_title>Europe (ECCS, Cogswell, Solymar, Zapletal)</predicted_title>
+      <reproducibility>
+        <test_title>forced spirometry</test_title>
+        <stage>baseline</stage>
+        <reproducibility_title>BTS</reproducibility_title>
+        <reproducibility_value>true</reproducibility_value>
+      </reproducibility>
+      <interpretation>
+        <stage>baseline</stage>
+        <title>NICE (2010)</title>
+        <value>Normal Spirometry</value>
+      </interpretation>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>4</index>
+        <date_time>
+          <year>2014</year>
+          <month>3</month>
+          <day>19</day>
+          <hour>13</hour>
+          <minute>41</minute>
+          <second>26</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>153</height>
+        <weight>78</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>1.54</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>1.77</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>1.92</value>
+          <predicted_value>1.89</predicted_value>
+          <predicted_value_min>1.27</predicted_value_min>
+          <predicted_value_max>2.52</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.1</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>2.27</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>2.32</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>2.32</value>
+          <predicted_value>2.28</predicted_value>
+          <predicted_value_min>1.57</predicted_value_min>
+          <predicted_value_max>2.98</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.1</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>5.74</value>
+          <predicted_value>5.45</predicted_value>
+          <predicted_value_min>3.97</predicted_value_min>
+          <predicted_value_max>6.93</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>66.38</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>67.84</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>76.29</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>77.97</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>76.29</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>82.76</value>
+          <predicted_value>77.32</predicted_value>
+          <predicted_value_min>66.62</predicted_value_min>
+          <predicted_value_max>88.02</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>0.8</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>82.76</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>97.84</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>4.79</value>
+          <predicted_value>4.98</predicted_value>
+          <predicted_value_min>2.76</predicted_value_min>
+          <predicted_value_max>7.20</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.1</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>2.37</value>
+          <predicted_value>3.36</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>5.17</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.9</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>0.74</value>
+          <predicted_value>1.17</predicted_value>
+          <predicted_value_min>0.03</predicted_value_min>
+          <predicted_value_max>2.30</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.6</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>1.92</value>
+          <predicted_value>2.72</predicted_value>
+          <predicted_value_min>1.33</predicted_value_min>
+          <predicted_value_max>4.12</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.9</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>82.76</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>84.58</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>102.16</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>72.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>4.07</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.59</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>2.49</predicted_value>
+          <predicted_value_min>1.67</predicted_value_min>
+          <predicted_value_max>3.31</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>1.76</predicted_value>
+          <predicted_value_min>1.18</predicted_value_min>
+          <predicted_value_max>2.34</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>4.31</predicted_value>
+          <predicted_value_min>3.32</predicted_value_min>
+          <predicted_value_max>5.30</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>55.02</predicted_value>
+          <predicted_value_min>45.27</predicted_value_min>
+          <predicted_value_max>64.77</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>40.04</predicted_value>
+          <predicted_value_min>30.45</predicted_value_min>
+          <predicted_value_max>49.63</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.06</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>61</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value>-1</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>24</num_points>
+          <points>0.00,0.00
+0.10,3.40
+0.20,5.30
+0.30,5.80
+0.40,5.60
+0.50,5.20
+0.60,4.70
+0.70,4.10
+0.80,3.70
+0.90,3.30
+1.00,2.90
+1.10,2.60
+1.30,2.10
+1.40,1.70
+1.50,1.50
+1.60,1.20
+1.70,1.00
+1.80,0.70
+1.90,0.50
+2.00,0.30
+2.10,0.20
+2.20,0.20
+2.30,0.10
+2.30,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>15</num_points>
+          <points>0.00,0.00
+0.10,0.20
+0.20,0.70
+0.30,1.10
+0.40,1.30
+0.50,1.40
+0.60,1.60
+0.70,1.70
+0.80,1.80
+1.00,1.90
+1.30,2.00
+1.70,2.10
+2.30,2.20
+3.50,2.30
+4.10,2.30
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>true</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>5</index>
+        <date_time>
+          <year>2014</year>
+          <month>3</month>
+          <day>19</day>
+          <hour>13</hour>
+          <minute>42</minute>
+          <second>26</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>153</height>
+        <weight>78</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>1.51</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>1.74</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>1.91</value>
+          <predicted_value>1.89</predicted_value>
+          <predicted_value_min>1.27</predicted_value_min>
+          <predicted_value_max>2.52</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.0</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>2.29</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>2.35</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>2.35</value>
+          <predicted_value>2.28</predicted_value>
+          <predicted_value_min>1.57</predicted_value_min>
+          <predicted_value_max>2.98</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.2</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>5.26</value>
+          <predicted_value>5.45</predicted_value>
+          <predicted_value_min>3.97</predicted_value_min>
+          <predicted_value_max>6.93</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.2</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>64.26</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>65.94</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>74.04</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>75.98</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>74.04</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>81.28</value>
+          <predicted_value>77.32</predicted_value>
+          <predicted_value_min>66.62</predicted_value_min>
+          <predicted_value_max>88.02</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>0.6</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>81.28</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>97.45</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>4.63</value>
+          <predicted_value>4.98</predicted_value>
+          <predicted_value_min>2.76</predicted_value_min>
+          <predicted_value_max>7.20</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.3</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>2.20</value>
+          <predicted_value>3.36</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>5.17</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-1.1</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>0.68</value>
+          <predicted_value>1.17</predicted_value>
+          <predicted_value_min>0.03</predicted_value_min>
+          <predicted_value_max>2.30</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.7</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>1.80</value>
+          <predicted_value>2.72</predicted_value>
+          <predicted_value_min>1.33</predicted_value_min>
+          <predicted_value_max>4.12</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-1.1</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>76.60</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>78.60</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>93.62</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>72.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>4.48</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.64</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>2.49</predicted_value>
+          <predicted_value_min>1.67</predicted_value_min>
+          <predicted_value_max>3.31</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>1.76</predicted_value>
+          <predicted_value_min>1.18</predicted_value_min>
+          <predicted_value_max>2.34</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>4.31</predicted_value>
+          <predicted_value_min>3.32</predicted_value_min>
+          <predicted_value_max>5.30</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>55.02</predicted_value>
+          <predicted_value_min>45.27</predicted_value_min>
+          <predicted_value_max>64.77</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>40.04</predicted_value>
+          <predicted_value_min>30.45</predicted_value_min>
+          <predicted_value_max>49.63</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.06</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>61</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value></value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>24</num_points>
+          <points>0.00,0.00
+0.10,3.30
+0.20,4.90
+0.30,5.30
+0.40,5.20
+0.50,4.90
+0.60,4.60
+0.70,4.30
+0.80,3.90
+0.90,3.30
+1.00,2.90
+1.10,2.40
+1.30,2.00
+1.40,1.70
+1.50,1.40
+1.60,1.20
+1.70,1.00
+1.80,0.70
+1.90,0.50
+2.00,0.40
+2.10,0.30
+2.20,0.20
+2.30,0.10
+2.40,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>16</num_points>
+          <points>0.00,0.00
+0.10,0.20
+0.20,0.70
+0.30,1.00
+0.40,1.30
+0.50,1.40
+0.60,1.50
+0.70,1.60
+0.80,1.70
+0.90,1.80
+1.00,1.90
+1.30,2.00
+1.60,2.10
+2.20,2.20
+3.00,2.30
+4.50,2.30
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>6</index>
+        <date_time>
+          <year>2014</year>
+          <month>3</month>
+          <day>19</day>
+          <hour>13</hour>
+          <minute>42</minute>
+          <second>26</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>153</height>
+        <weight>78</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>1.46</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>1.70</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>1.87</value>
+          <predicted_value>1.89</predicted_value>
+          <predicted_value_min>1.27</predicted_value_min>
+          <predicted_value_max>2.52</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>-0.1</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>2.19</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>2.26</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>2.28</value>
+          <predicted_value>2.28</predicted_value>
+          <predicted_value_min>1.57</predicted_value_min>
+          <predicted_value_max>2.98</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.0</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>5.06</value>
+          <predicted_value>5.45</predicted_value>
+          <predicted_value_min>3.97</predicted_value_min>
+          <predicted_value_max>6.93</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.4</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>64.04</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>66.67</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>74.56</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>77.63</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>75.22</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>82.02</value>
+          <predicted_value>77.32</predicted_value>
+          <predicted_value_min>66.62</predicted_value_min>
+          <predicted_value_max>88.02</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>0.7</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>82.74</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>96.05</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>4.49</value>
+          <predicted_value>4.98</predicted_value>
+          <predicted_value_min>2.76</predicted_value_min>
+          <predicted_value_max>7.20</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.4</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>2.18</value>
+          <predicted_value>3.36</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>5.17</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-1.1</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>0.75</value>
+          <predicted_value>1.17</predicted_value>
+          <predicted_value_min>0.03</predicted_value_min>
+          <predicted_value_max>2.30</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.6</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>1.77</value>
+          <predicted_value>2.72</predicted_value>
+          <predicted_value_min>1.33</predicted_value_min>
+          <predicted_value_max>4.12</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-1.1</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>77.63</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>80.82</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>95.61</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>70.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>4.50</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.63</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>2.49</predicted_value>
+          <predicted_value_min>1.67</predicted_value_min>
+          <predicted_value_max>3.31</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>1.76</predicted_value>
+          <predicted_value_min>1.18</predicted_value_min>
+          <predicted_value_max>2.34</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>4.31</predicted_value>
+          <predicted_value_min>3.32</predicted_value_min>
+          <predicted_value_max>5.30</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>55.02</predicted_value>
+          <predicted_value_min>45.27</predicted_value_min>
+          <predicted_value_max>64.77</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>40.04</predicted_value>
+          <predicted_value_min>30.45</predicted_value_min>
+          <predicted_value_max>49.63</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.07</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>62</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value>-3</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>23</num_points>
+          <points>0.00,0.00
+0.10,3.00
+0.20,4.30
+0.30,5.00
+0.40,5.00
+0.50,4.70
+0.60,4.40
+0.70,3.90
+0.80,3.40
+0.90,3.10
+1.00,2.60
+1.10,2.20
+1.30,1.90
+1.40,1.50
+1.50,1.30
+1.60,1.10
+1.70,0.90
+1.80,0.70
+1.90,0.40
+2.00,0.30
+2.10,0.20
+2.20,0.10
+2.30,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>15</num_points>
+          <points>0.00,0.00
+0.10,0.10
+0.20,0.60
+0.30,0.90
+0.40,1.20
+0.50,1.30
+0.60,1.50
+0.70,1.60
+0.80,1.70
+0.90,1.80
+1.20,1.90
+1.50,2.00
+1.90,2.10
+3.20,2.20
+4.50,2.20
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <composite_test>true</composite_test>
+        </test_type>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>2.24</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>2.93</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>1.54</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>1.77</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>1.92</value>
+          <predicted_value>1.89</predicted_value>
+          <predicted_value_min>1.27</predicted_value_min>
+          <predicted_value_max>2.52</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.1</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>2.29</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>2.35</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>2.35</value>
+          <predicted_value>2.28</predicted_value>
+          <predicted_value_min>1.57</predicted_value_min>
+          <predicted_value_max>2.98</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>0.2</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>5.74</value>
+          <predicted_value>5.45</predicted_value>
+          <predicted_value_min>3.97</predicted_value_min>
+          <predicted_value_max>6.93</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>65.53</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>67.25</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>75.32</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>77.29</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>75.32</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>81.70</value>
+          <predicted_value>77.32</predicted_value>
+          <predicted_value_min>66.62</predicted_value_min>
+          <predicted_value_max>88.02</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>0.7</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>81.70</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>97.45</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>4.63</value>
+          <predicted_value>4.98</predicted_value>
+          <predicted_value_min>2.76</predicted_value_min>
+          <predicted_value_max>7.20</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.3</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>2.20</value>
+          <predicted_value>3.36</predicted_value>
+          <predicted_value_min>1.55</predicted_value_min>
+          <predicted_value_max>5.17</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-1.1</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>0.68</value>
+          <predicted_value>1.17</predicted_value>
+          <predicted_value_min>0.03</predicted_value_min>
+          <predicted_value_max>2.30</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.7</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>1.80</value>
+          <predicted_value>2.72</predicted_value>
+          <predicted_value_min>1.33</predicted_value_min>
+          <predicted_value_max>4.12</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-1.1</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>76.60</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>78.60</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>93.62</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>72.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>4.48</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.64</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>2.49</predicted_value>
+          <predicted_value_min>1.67</predicted_value_min>
+          <predicted_value_max>3.31</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>1.76</predicted_value>
+          <predicted_value_min>1.18</predicted_value_min>
+          <predicted_value_max>2.34</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>4.31</predicted_value>
+          <predicted_value_min>3.32</predicted_value_min>
+          <predicted_value_max>5.30</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>55.02</predicted_value>
+          <predicted_value_min>45.27</predicted_value_min>
+          <predicted_value_max>64.77</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>40.04</predicted_value>
+          <predicted_value_min>30.45</predicted_value_min>
+          <predicted_value_max>49.63</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.06</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>0</value>
+          <unit_symbol>-</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>61</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>82</num_points>
+          <points>0.00,0.00
+0.03,1.02
+0.06,2.04
+0.09,3.06
+0.12,3.78
+0.15,4.35
+0.18,4.92
+0.21,5.35
+0.24,5.50
+0.27,5.65
+0.30,5.80
+0.33,5.71
+0.36,5.62
+0.39,5.53
+0.42,5.42
+0.45,5.30
+0.48,5.18
+0.51,5.05
+0.54,4.90
+0.57,4.75
+0.60,4.60
+0.63,4.43
+0.66,4.36
+0.69,4.30
+0.72,4.19
+0.75,4.08
+0.78,3.97
+0.81,3.82
+0.84,3.58
+0.87,3.35
+0.90,3.17
+0.93,3.09
+0.96,3.00
+0.99,2.92
+1.02,2.82
+1.05,2.70
+1.08,2.58
+1.11,2.47
+1.14,2.39
+1.17,2.31
+1.20,2.23
+1.23,2.15
+1.26,2.07
+1.29,2.00
+1.32,1.91
+1.35,1.82
+1.38,1.73
+1.41,1.66
+1.44,1.60
+1.47,1.55
+1.50,1.50
+1.53,1.41
+1.56,1.32
+1.59,1.23
+1.62,1.16
+1.65,1.10
+1.68,1.04
+1.71,0.95
+1.74,0.82
+1.77,0.68
+1.80,0.59
+1.83,0.56
+1.86,0.53
+1.89,0.50
+1.92,0.47
+1.95,0.44
+1.98,0.41
+2.01,0.38
+2.04,0.35
+2.07,0.32
+2.10,0.29
+2.13,0.26
+2.16,0.23
+2.19,0.20
+2.22,0.17
+2.25,0.14
+2.28,0.11
+2.31,0.08
+2.34,0.05
+2.37,0.02
+2.40,0.00
+2.40,0.00
+</points>
+          <horz_axis>
+            <axis_label />
+            <unit_symbol />
+          </horz_axis>
+          <vert_axis>
+            <axis_label />
+            <unit_symbol />
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>16</num_points>
+          <points>0.00,0.00
+0.10,0.20
+0.20,0.70
+0.30,1.00
+0.40,1.30
+0.50,1.40
+0.60,1.50
+0.70,1.60
+0.80,1.70
+0.90,1.80
+1.00,1.90
+1.30,2.00
+1.60,2.10
+2.20,2.20
+3.00,2.30
+4.50,2.30
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+    </exam>
+  </patient>
+  <patient>
+    <id>0046</id>
+    <alias_id></alias_id>
+    <name>
+      <first></first>
+      <last></last>
+    </name>
+    <gender>male</gender>
+    <dob>
+      <year>1891</year>
+      <month>2</month>
+      <day>15</day>
+    </dob>
+    <age>42</age>
+    <origin>caucasian</origin>
+    <height>174</height>
+    <weight>81</weight>
+    <bmi>26.8</bmi>
+    <smoker>0</smoker>
+    <dyspnoea_score>0</dyspnoea_score>
+    <referred_by></referred_by>
+    <occupation></occupation>
+    <history></history>
+    <medication></medication>
+    <frc>0</frc>
+    <factor>100</factor>
+    <factor>100</factor>
+    <exam includes_composite_forced="true">
+      <type>spirometry</type>
+      <new>false</new>
+      <exam_id>0046-20140416110654</exam_id>
+      <date_time>
+        <year>2014</year>
+        <month>4</month>
+        <day>16</day>
+        <hour>11</hour>
+        <minute>6</minute>
+        <second>54</second>
+      </date_time>
+      <height>174</height>
+      <weight>81</weight>
+      <dyspnoea_score>0</dyspnoea_score>
+      <smoker>-1</smoker>
+      <referred_by />
+      <occupation />
+      <medication></medication>
+      <notes></notes>
+      <print_status>0</print_status>
+      <predicted_title>Europe (ECCS, Cogswell, Solymar, Zapletal)</predicted_title>
+      <reproducibility>
+        <test_title>forced spirometry</test_title>
+        <stage>baseline</stage>
+        <reproducibility_title>BTS</reproducibility_title>
+        <reproducibility_value>true</reproducibility_value>
+      </reproducibility>
+      <interpretation>
+        <stage>baseline</stage>
+        <title>NICE (2010)</title>
+        <value>Normal Spirometry</value>
+      </interpretation>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>7</index>
+        <date_time>
+          <year>2014</year>
+          <month>4</month>
+          <day>16</day>
+          <hour>11</hour>
+          <minute>5</minute>
+          <second>49</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>174</height>
+        <weight>81</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>3.53</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>4.33</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>4.88</value>
+          <predicted_value>4.06</predicted_value>
+          <predicted_value_min>3.23</predicted_value_min>
+          <predicted_value_max>4.90</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>1.6</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>5.46</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>5.46</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>5.46</value>
+          <predicted_value>4.85</predicted_value>
+          <predicted_value_min>3.85</predicted_value_min>
+          <predicted_value_max>5.85</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>1.0</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>10.92</value>
+          <predicted_value>9.46</predicted_value>
+          <predicted_value_min>7.47</predicted_value_min>
+          <predicted_value_max>11.45</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>1.2</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>64.65</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>64.65</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>79.30</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>79.30</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>79.30</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>89.38</value>
+          <predicted_value>81.45</predicted_value>
+          <predicted_value_min>69.65</predicted_value_min>
+          <predicted_value_max>93.25</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>1.1</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>89.38</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>100.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>8.87</value>
+          <predicted_value>8.10</predicted_value>
+          <predicted_value_min>5.29</predicted_value_min>
+          <predicted_value_max>10.91</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.4</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>5.65</value>
+          <predicted_value>5.25</predicted_value>
+          <predicted_value_min>3.08</predicted_value_min>
+          <predicted_value_max>7.42</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>3.06</value>
+          <predicted_value>2.37</predicted_value>
+          <predicted_value_min>1.09</predicted_value_min>
+          <predicted_value_max>3.65</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.9</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>5.05</value>
+          <predicted_value>4.70</predicted_value>
+          <predicted_value_min>2.99</predicted_value_min>
+          <predicted_value_max>6.41</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>92.49</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>92.49</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>103.48</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>183.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>2.12</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.53</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>3.27</predicted_value>
+          <predicted_value_min>2.28</predicted_value_min>
+          <predicted_value_max>4.26</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>1.75</predicted_value>
+          <predicted_value_min>1.08</predicted_value_min>
+          <predicted_value_max>2.42</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>6.82</predicted_value>
+          <predicted_value_min>5.67</predicted_value_min>
+          <predicted_value_max>7.97</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>50.52</predicted_value>
+          <predicted_value_min>39.43</predicted_value_min>
+          <predicted_value_max>61.61</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>26.44</predicted_value>
+          <predicted_value_min>17.46</predicted_value_min>
+          <predicted_value_max>35.42</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.07</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>22</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value>-4</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>54</num_points>
+          <points>0.00,0.00
+0.10,6.40
+0.20,9.00
+0.30,10.10
+0.40,10.70
+0.50,10.90
+0.60,10.90
+0.70,10.80
+0.80,10.80
+0.90,10.50
+1.00,10.10
+1.10,9.80
+1.20,9.40
+1.40,9.00
+1.50,8.70
+1.60,8.40
+1.70,8.20
+1.80,8.00
+1.90,7.80
+2.00,7.50
+2.10,7.20
+2.20,7.00
+2.30,6.80
+2.40,6.60
+2.50,6.40
+2.60,6.10
+2.70,5.80
+2.80,5.40
+2.90,5.20
+3.00,4.80
+3.10,4.50
+3.20,4.40
+3.30,4.10
+3.40,4.00
+3.50,3.80
+3.60,3.60
+3.70,3.50
+3.90,3.30
+4.00,3.20
+4.10,3.10
+4.20,3.10
+4.30,2.90
+4.40,2.60
+4.50,2.40
+4.60,2.20
+4.70,2.00
+4.80,1.80
+4.90,1.70
+5.00,1.50
+5.10,1.20
+5.20,1.00
+5.30,0.90
+5.40,0.20
+5.50,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>17</num_points>
+          <points>0.00,0.00
+0.10,0.70
+0.20,1.60
+0.30,2.40
+0.40,2.90
+0.50,3.40
+0.60,3.80
+0.70,4.10
+0.80,4.30
+0.90,4.60
+1.00,4.80
+1.10,4.90
+1.20,5.10
+1.30,5.20
+1.40,5.30
+1.50,5.40
+2.10,5.40
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>true</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>8</index>
+        <date_time>
+          <year>2014</year>
+          <month>4</month>
+          <day>16</day>
+          <hour>11</hour>
+          <minute>6</minute>
+          <second>49</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>174</height>
+        <weight>81</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>3.65</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>4.37</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>4.84</value>
+          <predicted_value>4.06</predicted_value>
+          <predicted_value_min>3.23</predicted_value_min>
+          <predicted_value_max>4.90</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>1.5</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>5.84</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>5.86</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>5.86</value>
+          <predicted_value>4.85</predicted_value>
+          <predicted_value_min>3.85</predicted_value_min>
+          <predicted_value_max>5.85</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>1.7</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>10.71</value>
+          <predicted_value>9.46</predicted_value>
+          <predicted_value_min>7.47</predicted_value_min>
+          <predicted_value_max>11.45</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>1.0</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>62.29</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>62.50</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>74.57</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>74.83</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>74.57</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>82.59</value>
+          <predicted_value>81.45</predicted_value>
+          <predicted_value_min>69.65</predicted_value_min>
+          <predicted_value_max>93.25</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>0.2</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>82.59</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>99.66</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>9.28</value>
+          <predicted_value>8.10</predicted_value>
+          <predicted_value_min>5.29</predicted_value_min>
+          <predicted_value_max>10.91</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.7</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>5.83</value>
+          <predicted_value>5.25</predicted_value>
+          <predicted_value_min>3.08</predicted_value_min>
+          <predicted_value_max>7.42</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.4</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>2.21</value>
+          <predicted_value>2.37</predicted_value>
+          <predicted_value_min>1.09</predicted_value_min>
+          <predicted_value_max>3.65</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.2</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>4.69</value>
+          <predicted_value>4.70</predicted_value>
+          <predicted_value_min>2.99</predicted_value_min>
+          <predicted_value_max>6.41</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.0</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>80.03</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>80.31</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>99.49</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>182.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>2.71</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.61</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>3.27</predicted_value>
+          <predicted_value_min>2.28</predicted_value_min>
+          <predicted_value_max>4.26</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>1.75</predicted_value>
+          <predicted_value_min>1.08</predicted_value_min>
+          <predicted_value_max>2.42</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>6.82</predicted_value>
+          <predicted_value_min>5.67</predicted_value_min>
+          <predicted_value_max>7.97</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>50.52</predicted_value>
+          <predicted_value_min>39.43</predicted_value_min>
+          <predicted_value_max>61.61</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>26.44</predicted_value>
+          <predicted_value_min>17.46</predicted_value_min>
+          <predicted_value_max>35.42</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.07</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>22</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value></value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>57</num_points>
+          <points>0.00,0.00
+0.10,6.00
+0.20,8.70
+0.30,9.90
+0.40,10.50
+0.50,10.60
+0.60,10.50
+0.70,10.60
+0.80,10.40
+0.90,10.20
+1.00,10.00
+1.10,9.80
+1.20,9.60
+1.40,9.50
+1.50,9.30
+1.60,9.10
+1.70,8.90
+1.80,8.70
+1.90,8.50
+2.00,8.20
+2.10,8.00
+2.20,7.70
+2.30,7.40
+2.40,7.10
+2.50,6.80
+2.60,6.60
+2.70,6.30
+2.80,6.10
+2.90,5.90
+3.00,5.70
+3.10,5.40
+3.20,5.00
+3.30,4.60
+3.40,4.30
+3.50,4.00
+3.60,3.70
+3.70,3.50
+3.90,3.30
+4.00,3.10
+4.10,2.80
+4.20,2.60
+4.30,2.50
+4.40,2.30
+4.50,2.10
+4.60,2.00
+4.70,1.70
+4.80,1.60
+4.90,1.50
+5.00,1.20
+5.10,1.10
+5.20,1.00
+5.30,0.90
+5.40,0.80
+5.50,0.70
+5.70,0.60
+5.80,0.40
+5.90,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>22</num_points>
+          <points>0.00,0.00
+0.10,0.70
+0.20,1.70
+0.30,2.50
+0.40,3.10
+0.50,3.50
+0.60,3.90
+0.70,4.10
+0.80,4.40
+0.90,4.60
+1.00,4.70
+1.10,4.90
+1.20,5.00
+1.30,5.10
+1.40,5.20
+1.50,5.30
+1.60,5.40
+1.70,5.50
+1.80,5.60
+2.10,5.70
+2.30,5.80
+2.70,5.80
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <manual_best>false</manual_best>
+        </test_type>
+        <index>9</index>
+        <date_time>
+          <year>2014</year>
+          <month>4</month>
+          <day>16</day>
+          <hour>11</hour>
+          <minute>6</minute>
+          <second>49</second>
+        </date_time>
+        <sensor_type>0</sensor_type>
+        <height>174</height>
+        <weight>81</weight>
+        <dyspnoea_score>0</dyspnoea_score>
+        <smoker>-1</smoker>
+        <excluded>false</excluded>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>3.64</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>4.32</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>4.78</value>
+          <predicted_value>4.06</predicted_value>
+          <predicted_value_min>3.23</predicted_value_min>
+          <predicted_value_max>4.90</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>1.4</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>5.70</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>5.71</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>5.73</value>
+          <predicted_value>4.85</predicted_value>
+          <predicted_value_min>3.85</predicted_value_min>
+          <predicted_value_max>5.85</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>1.4</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>10.87</value>
+          <predicted_value>9.46</predicted_value>
+          <predicted_value_min>7.47</predicted_value_min>
+          <predicted_value_max>11.45</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>1.2</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>63.53</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>63.86</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>75.39</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>75.79</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>75.66</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>83.42</value>
+          <predicted_value>81.45</predicted_value>
+          <predicted_value_min>69.65</predicted_value_min>
+          <predicted_value_max>93.25</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>83.71</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>99.48</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>9.14</value>
+          <predicted_value>8.10</predicted_value>
+          <predicted_value_min>5.29</predicted_value_min>
+          <predicted_value_max>10.91</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.6</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>5.83</value>
+          <predicted_value>5.25</predicted_value>
+          <predicted_value_min>3.08</predicted_value_min>
+          <predicted_value_max>7.42</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.4</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>2.13</value>
+          <predicted_value>2.37</predicted_value>
+          <predicted_value_min>1.09</predicted_value_min>
+          <predicted_value_max>3.65</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.3</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>4.73</value>
+          <predicted_value>4.70</predicted_value>
+          <predicted_value_min>2.99</predicted_value_min>
+          <predicted_value_max>6.41</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.0</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>82.55</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>82.98</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>101.75</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>179.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>2.62</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.59</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>3.27</predicted_value>
+          <predicted_value_min>2.28</predicted_value_min>
+          <predicted_value_max>4.26</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>1.75</predicted_value>
+          <predicted_value_min>1.08</predicted_value_min>
+          <predicted_value_max>2.42</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>6.82</predicted_value>
+          <predicted_value_min>5.67</predicted_value_min>
+          <predicted_value_max>7.97</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>50.52</predicted_value>
+          <predicted_value_min>39.43</predicted_value_min>
+          <predicted_value_max>61.61</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>26.44</predicted_value>
+          <predicted_value_min>17.46</predicted_value_min>
+          <predicted_value_max>35.42</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.07</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>7</value>
+          <unit_symbol>Good Blow</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>22</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>Variation</title>
+          <value>-2</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>56</num_points>
+          <points>0.00,0.00
+0.10,6.70
+0.20,9.30
+0.30,10.30
+0.40,10.70
+0.50,10.80
+0.60,10.70
+0.70,10.80
+0.80,10.50
+0.90,10.30
+1.00,10.00
+1.10,9.80
+1.20,9.60
+1.40,9.20
+1.50,9.20
+1.60,9.00
+1.70,8.70
+1.80,8.20
+1.90,8.10
+2.00,7.80
+2.10,7.60
+2.20,7.30
+2.30,7.00
+2.40,6.70
+2.50,6.50
+2.60,6.40
+2.70,6.20
+2.80,6.10
+2.90,5.80
+3.00,5.60
+3.10,5.20
+3.20,4.90
+3.30,4.70
+3.40,4.40
+3.50,4.10
+3.60,3.90
+3.70,3.40
+3.90,3.20
+4.00,2.90
+4.10,2.60
+4.20,2.40
+4.30,2.20
+4.40,2.10
+4.50,1.90
+4.60,1.70
+4.70,1.50
+4.80,1.50
+4.90,1.30
+5.00,1.20
+5.10,1.00
+5.20,0.80
+5.30,0.70
+5.40,0.60
+5.60,0.50
+5.70,0.30
+5.70,0.00
+</points>
+          <horz_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>flow</axis_label>
+            <unit_symbol>l/s</unit_symbol>
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>21</num_points>
+          <points>0.00,0.00
+0.10,0.80
+0.20,1.70
+0.30,2.40
+0.40,3.00
+0.50,3.50
+0.60,3.90
+0.70,4.10
+0.80,4.30
+0.90,4.50
+1.00,4.70
+1.10,4.80
+1.20,4.90
+1.30,5.00
+1.40,5.10
+1.50,5.20
+1.60,5.30
+1.70,5.40
+1.80,5.50
+2.10,5.60
+2.60,5.60
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+      <test>
+        <test_type>
+          <test_title>forced spirometry</test_title>
+          <stage>baseline</stage>
+          <best_test>false</best_test>
+          <composite_test>true</composite_test>
+        </test_type>
+        <best_criteria>individual best</best_criteria>
+        <result>
+          <title>VC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>EVC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IVC</title>
+          <value>-1.00</value>
+          <predicted_value>5.07</predicted_value>
+          <predicted_value_min>4.15</predicted_value_min>
+          <predicted_value_max>5.99</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05</title>
+          <value>3.65</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075</title>
+          <value>4.37</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1</title>
+          <value>4.88</value>
+          <predicted_value>4.06</predicted_value>
+          <predicted_value_min>3.23</predicted_value_min>
+          <predicted_value_max>4.90</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>1.6</z_score>
+        </result>
+        <result>
+          <title>FEV3</title>
+          <value>5.84</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FEV6</title>
+          <value>5.86</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FVC</title>
+          <value>5.86</value>
+          <predicted_value>4.85</predicted_value>
+          <predicted_value_min>3.85</predicted_value_min>
+          <predicted_value_max>5.85</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+          <z_score>1.7</z_score>
+        </result>
+        <result>
+          <title>PEF</title>
+          <value>10.92</value>
+          <predicted_value>9.46</predicted_value>
+          <predicted_value_min>7.47</predicted_value_min>
+          <predicted_value_max>11.45</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>1.2</z_score>
+        </result>
+        <result>
+          <title>FEV05_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FVC</title>
+          <value>62.29</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV05_FEV3</title>
+          <value>62.50</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FVC</title>
+          <value>74.57</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV3</title>
+          <value>74.83</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV075_FEV6</title>
+          <value>74.57</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV1_FVC</title>
+          <value>83.28</value>
+          <predicted_value>81.45</predicted_value>
+          <predicted_value_min>69.65</predicted_value_min>
+          <predicted_value_max>93.25</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+          <z_score>0.3</z_score>
+        </result>
+        <result>
+          <title>FEV1_FEV6</title>
+          <value>83.28</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEV3_FVC</title>
+          <value>99.66</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25</title>
+          <value>9.28</value>
+          <predicted_value>8.10</predicted_value>
+          <predicted_value_min>5.29</predicted_value_min>
+          <predicted_value_max>10.91</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.7</z_score>
+        </result>
+        <result>
+          <title>FEF50</title>
+          <value>5.83</value>
+          <predicted_value>5.25</predicted_value>
+          <predicted_value_min>3.08</predicted_value_min>
+          <predicted_value_max>7.42</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.4</z_score>
+        </result>
+        <result>
+          <title>FEF75</title>
+          <value>2.21</value>
+          <predicted_value>2.37</predicted_value>
+          <predicted_value_min>1.09</predicted_value_min>
+          <predicted_value_max>3.65</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>-0.2</z_score>
+        </result>
+        <result>
+          <title>FEF25_75</title>
+          <value>4.69</value>
+          <predicted_value>4.70</predicted_value>
+          <predicted_value_min>2.99</predicted_value_min>
+          <predicted_value_max>6.41</predicted_value_max>
+          <unit_symbol>L/s</unit_symbol>
+          <z_score>0.0</z_score>
+        </result>
+        <result>
+          <title>FEF25_75_FVC</title>
+          <value>80.03</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF25_75_FEV3</title>
+          <value>80.31</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_VC</title>
+          <value>-1.00</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>FEF50_FVC</title>
+          <value>99.49</value>
+          <unit_symbol>/sec</unit_symbol>
+        </result>
+        <result>
+          <title>MVV_ind</title>
+          <value>183.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV1</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIV3</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FIVC</title>
+          <value>0.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>PIF</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIV05_FIVC</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIR</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FIF25</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF50</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>FIF75</title>
+          <value>0.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>R50</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>FET</title>
+          <value>2.71</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>FET2575</title>
+          <value>0.61</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>ERV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IRV</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>IC</title>
+          <value>-1.00</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FRC</title>
+          <value>-1.00</value>
+          <predicted_value>3.27</predicted_value>
+          <predicted_value_min>2.28</predicted_value_min>
+          <predicted_value_max>4.26</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>RV</title>
+          <value>-1.00</value>
+          <predicted_value>1.75</predicted_value>
+          <predicted_value_min>1.08</predicted_value_min>
+          <predicted_value_max>2.42</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TLC</title>
+          <value>-1.00</value>
+          <predicted_value>6.82</predicted_value>
+          <predicted_value_min>5.67</predicted_value_min>
+          <predicted_value_max>7.97</predicted_value_max>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>FR</title>
+          <value>-1.00</value>
+          <unit_symbol>/min</unit_symbol>
+        </result>
+        <result>
+          <title>TI</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>TE</title>
+          <value>-1.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <result>
+          <title>VE</title>
+          <value>-1.00</value>
+          <unit_symbol>L/min</unit_symbol>
+        </result>
+        <result>
+          <title>FRC_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>50.52</predicted_value>
+          <predicted_value_min>39.43</predicted_value_min>
+          <predicted_value_max>61.61</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>RV_TLC</title>
+          <value>-1.00</value>
+          <predicted_value>26.44</predicted_value>
+          <predicted_value_min>17.46</predicted_value_min>
+          <predicted_value_max>35.42</predicted_value_max>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>EV</title>
+          <value>0.07</value>
+          <unit_symbol>L</unit_symbol>
+        </result>
+        <result>
+          <title>TV_TI</title>
+          <value>-1.00</value>
+          <unit_symbol>L/s</unit_symbol>
+        </result>
+        <result>
+          <title>TI_TTOT</title>
+          <value>-1.00</value>
+          <unit_symbol>%</unit_symbol>
+        </result>
+        <result>
+          <title>Quality</title>
+          <value>0</value>
+          <unit_symbol>-</unit_symbol>
+        </result>
+        <result>
+          <title>Lung Age</title>
+          <value>22</value>
+          <unit_symbol>years</unit_symbol>
+        </result>
+        <result>
+          <title>Start Time</title>
+          <value>0.00</value>
+          <unit_symbol>s</unit_symbol>
+        </result>
+        <graph>
+          <graph_type>Flow Volume Graph</graph_type>
+          <num_points>100</num_points>
+          <points>0.00,0.00
+0.06,3.96
+0.12,7.14
+0.18,8.76
+0.24,9.70
+0.30,10.30
+0.36,10.48
+0.42,10.64
+0.48,10.76
+0.54,10.80
+0.60,10.80
+0.66,10.80
+0.72,10.80
+0.78,10.80
+0.84,10.66
+0.90,10.46
+0.96,10.24
+1.02,10.04
+1.08,9.86
+1.14,9.72
+1.20,9.60
+1.26,9.56
+1.32,9.53
+1.38,9.50
+1.44,9.40
+1.50,9.30
+1.56,9.18
+1.62,9.04
+1.68,8.86
+1.74,8.71
+1.80,8.59
+1.86,8.53
+1.92,8.39
+1.98,8.17
+2.04,8.05
+2.10,7.96
+2.16,7.74
+2.22,7.55
+2.28,7.42
+2.34,7.21
+2.40,7.00
+2.46,6.88
+2.52,6.73
+2.58,6.53
+2.64,6.40
+2.70,6.30
+2.76,6.10
+2.82,5.97
+2.88,5.91
+2.94,5.78
+3.00,5.60
+3.06,5.46
+3.12,5.29
+3.18,5.07
+3.24,4.77
+3.30,4.58
+3.36,4.47
+3.42,4.32
+3.48,4.08
+3.54,3.95
+3.60,3.85
+3.66,3.58
+3.72,3.47
+3.78,3.38
+3.84,3.29
+3.90,3.20
+3.96,3.20
+4.02,3.15
+4.08,3.02
+4.14,3.00
+4.20,2.99
+4.26,2.93
+4.32,2.82
+4.38,2.58
+4.44,2.46
+4.50,2.40
+4.56,2.26
+4.62,2.14
+4.68,2.02
+4.74,1.86
+4.80,1.70
+4.86,1.70
+4.92,1.66
+4.98,1.54
+5.04,1.36
+5.10,1.18
+5.16,1.06
+5.22,0.94
+5.28,0.83
+5.34,0.80
+5.40,0.80
+5.46,0.68
+5.52,0.60
+5.58,0.60
+5.64,0.60
+5.70,0.58
+5.76,0.47
+5.82,0.32
+5.88,0.08
+5.90,0.00
+</points>
+          <horz_axis>
+            <axis_label />
+            <unit_symbol />
+          </horz_axis>
+          <vert_axis>
+            <axis_label />
+            <unit_symbol />
+          </vert_axis>
+        </graph>
+        <graph>
+          <graph_type>Volume Time Graph</graph_type>
+          <num_points>22</num_points>
+          <points>0.00,0.00
+0.10,0.70
+0.20,1.70
+0.30,2.50
+0.40,3.10
+0.50,3.50
+0.60,3.90
+0.70,4.10
+0.80,4.40
+0.90,4.60
+1.00,4.70
+1.10,4.90
+1.20,5.00
+1.30,5.10
+1.40,5.20
+1.50,5.30
+1.60,5.40
+1.70,5.50
+1.80,5.60
+2.10,5.70
+2.30,5.80
+2.70,5.80
+</points>
+          <horz_axis>
+            <axis_label>time</axis_label>
+            <unit_symbol>s</unit_symbol>
+          </horz_axis>
+          <vert_axis>
+            <axis_label>volume</axis_label>
+            <unit_symbol>l</unit_symbol>
+          </vert_axis>
+        </graph>
+      </test>
+    </exam>
+  </patient>
+</micro_medical>
