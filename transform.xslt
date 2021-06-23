@@ -993,9 +993,9 @@
 		<xsl:param name = "test_number" />
 		<xsl:param name = "field_name" />
 
-    <xsl:text>"exam </xsl:text>
+    <xsl:text>"E</xsl:text>
     <xsl:value-of select="$exam_number"/>
-		<xsl:text> test </xsl:text>
+		<xsl:text>T</xsl:text>
 		<xsl:value-of select="$test_number"/>
 		<xsl:text> </xsl:text>
 		<xsl:value-of select="$field_name"/>
