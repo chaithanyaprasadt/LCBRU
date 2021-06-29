@@ -529,6 +529,7 @@
 		<xsl:apply-templates select="smoker" mode="numeric" />
 		<xsl:text>,</xsl:text>
 		<xsl:apply-templates select="dyspnoea_score" mode="numeric" />
+    <xsl:text>,</xsl:text>
 	</xsl:template>
 
 	<xsl:template match="exam" >
