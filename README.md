@@ -30,3 +30,7 @@ Then install lxml
 The project contains a `data` folder that's contents are never checked in.
 This is to protect the potentially sensitive data from accidentally being 
 uploaded to the internet.
+
+## Running
+
+    python microMedicalSpirometerXmlToCsv.py data/graphic2spirometry.XML -t transform.xslt > data/graphicSpirometry_20160114.csv
